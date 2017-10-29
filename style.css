@@ -1039,6 +1039,7 @@ body.stretched #header.full-header .container {
 	font-size: 36px;
 	line-height: 100%;
 	margin-right: 40px;
+	width:30%;
 }
 
 #header.full-header #logo {
@@ -2583,7 +2584,7 @@ body:not(.device-touch) #page-menu nav li a {
 
 .side-header:not(.open-header) #wrapper .container {
 	width: auto;
-	margin: 0 40px;
+	margin: 0 0px;
 }
 
 
