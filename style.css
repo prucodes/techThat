@@ -1039,6 +1039,7 @@ body.stretched #header.full-header .container {
 	font-size: 36px;
 	line-height: 100%;
 	margin-right: 40px;
+	width: 30%;
 }
 
 #header.full-header #logo {
@@ -1062,7 +1063,7 @@ body.stretched #header.full-header .container {
 #logo a.standard-logo { display: block;
 	/*80 and 50*/
 	width:100%;
-	height:100%;
+	height:80%;
  }
 
 #logo a.retina-logo { display: none;
@@ -2024,7 +2025,7 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #header.transparent-header
 #header,
 #header-wrap,
 #logo img {
-	height: 100px;
+	height: 75px;
 	-webkit-transition: height .4s ease, opacity .3s ease;
 	-o-transition: height .4s ease, opacity .3s ease;
 	transition: height .4s ease, opacity .3s ease;
@@ -2584,7 +2585,7 @@ body:not(.device-touch) #page-menu nav li a {
 
 .side-header:not(.open-header) #wrapper .container {
 	width: auto;
-	margin: 0 40px;
+	margin: 0 0px;
 }
 
 
