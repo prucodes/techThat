@@ -1,2 +1,2 @@
 # techThat
-A collaboration to Learn, Code, Solve &amp; Improve 
+A collaboration to Learn, Code, Solve &amp; Improve. 
