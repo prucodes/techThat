@@ -3242,7 +3242,8 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 .chip {
     display: inline-block;
     padding: 0 25px;
-    height: 50px;
+    height: auto;
+    width:300px;
     font-size: 18px;
     line-height: 50px;
     border-radius: 25px;
@@ -3250,7 +3251,6 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 }
 
 .chip img {
-    float: left;
     margin: 0 10px 0 -25px;
     height: 50px;
     width: 50px;
@@ -3258,7 +3258,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 }
 
 .closebtn {
-    padding-left: 10px;
+    
     color: #888;
     font-weight: bold;
     float: right;

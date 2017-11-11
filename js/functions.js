@@ -1569,15 +1569,7 @@ var SEMICOLON = SEMICOLON || {};
 					slideNumberCurrent = element.find('#slide-number-current'),
 					sliderVideoAutoPlay = element.attr('data-video-autoplay');
 
-				console.log(elementDirection);
-				console.log(elementSpeed);
-				console.log(elementAutoPlay);
-				console.log(elementLoop); //good
-				console.log(elementEffect);
-				console.log(elementGrabCursor);
-				console.log(slideNumberTotal); //good
-				console.log(slideNumberCurrent); //good
-				console.log(sliderVideoAutoPlay);
+				
 
 
 				if( !elementSpeed ) { elementSpeed = 500; }

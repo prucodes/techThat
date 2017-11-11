@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	console.log("load sliders...");
+
     $("#flip1").click(function(){
         $("#panel1").slideToggle("slow");
     });
