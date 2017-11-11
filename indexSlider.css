@@ -1,0 +1,35 @@
+#panel1, #flip1, #panel2, #flip2, #panel3, #flip3, #panel4, #flip4, #panel5, #flip5, #panel6, #flip6, #panel7, #flip7 {
+
+}
+
+#panel1, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7 {
+    display: none;
+}
+
+.slideHeader {
+	width:80%;
+	font-size:20px;
+	margin-bottom:5px;
+	font-family: 'Verdana',sans-serif;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    border: solid 1px #c3c3c3;
+}
+
+.slideHeader:hover {
+	background-color: #000099;
+	color:white;
+	cursor:pointer;
+}
+
+.slideContent {
+	width:80%;
+	font-size:15px;
+	margin-bottom:10px;
+	font-family: 'Verdana',sans-serif;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    border: solid 1px #c3c3c3;
+}
