@@ -1561,7 +1561,7 @@ var SEMICOLON = SEMICOLON || {};
 				var element = $slider.filter('.swiper_wrapper'),
 					elementDirection = element.attr('data-direction'),
 					elementSpeed = element.attr('data-speed'),
-					elementAutoPlay = element.attr('data-autoplay'),
+					elementAutoPlay = element.attr('data-video-autoplay'),
 					elementLoop = element.attr('data-loop'),
 					elementEffect = element.attr('data-effect'),
 					elementGrabCursor = element.attr('data-grab'),
@@ -1569,7 +1569,18 @@ var SEMICOLON = SEMICOLON || {};
 					slideNumberCurrent = element.find('#slide-number-current'),
 					sliderVideoAutoPlay = element.attr('data-video-autoplay');
 
-				if( !elementSpeed ) { elementSpeed = 300; }
+				console.log(elementDirection);
+				console.log(elementSpeed);
+				console.log(elementAutoPlay);
+				console.log(elementLoop); //good
+				console.log(elementEffect);
+				console.log(elementGrabCursor);
+				console.log(slideNumberTotal); //good
+				console.log(slideNumberCurrent); //good
+				console.log(sliderVideoAutoPlay);
+
+
+				if( !elementSpeed ) { elementSpeed = 500; }
 				if( !elementDirection ) { elementDirection = 'horizontal'; }
 				if( elementAutoPlay ) { elementAutoPlay = Number( elementAutoPlay ); }
 				if( elementLoop == 'true' ) { elementLoop = true; } else { elementLoop = false; }
